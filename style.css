@@ -31,15 +31,24 @@ h1{
     padding-top: 20px;
 }
 nav li{
-    display: inline;
+    display: inline-flex;
 }
-nav a{
+nav .menu{
     color: white;
     text-shadow: 1px 1px 1px black;
     font-size: 1em;
     text-decoration: none;
     margin-left: 10px;
-    margin-right: 40px;
+    margin-right: 40px; 
+    }
+    .menu:hover{
+        background-color: #c5e3c5;
+        color: white;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 1em;
+        
     }
 main{
     background-color: aquamarine;
@@ -65,6 +74,11 @@ p{
     text-indent: 20px;
     padding-bottom: 20px;
     text-align:justify;
+    padding-top: 10px;
+}
+.links{
+    color: #489648;
+    text-decoration: none;
 }
 img{
     border-radius: 20px;
